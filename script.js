@@ -1,3 +1,7 @@
+// Sources: 
+// particlesJS - https://vincentgarreau.com/particles.js/
+// Timer code - https://www.w3schools.com/howto/howto_js_countdown.asp
+
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
