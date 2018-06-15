@@ -1,3 +1,7 @@
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
 var releaseDate = new Date("Dec 7, 2018").getTime();
 
 var x = setInterval(function(){

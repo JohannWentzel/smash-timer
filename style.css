@@ -1,4 +1,39 @@
-.h1{
+h1{
     font-family: sans-serif;
-    font-size: 300;
+    text-align: center
+}
+
+body { background: black
+}
+
+#wrapper {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#smashlogo {
+    
+}
+
+#particles-js {
+    position: fixed;
+    width:100%;
+    z-index: -1;
+}
+
+#timetext {
+    color: white;
+    text-align: center;
+    font-size: 75;
+    font-family: sans-serif;
+    max-width: 80%;
+    margin: 50 auto;
+    
+}
+
+@font-face {
+    font-family: "Super Smash";
+    src: url("fonts/supersmash.woff");
+
 }
