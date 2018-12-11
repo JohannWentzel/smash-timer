@@ -22,6 +22,6 @@ var x = setInterval(function(){
     
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timetext").innerHTML = "IT'S OUT";
+        document.getElementById("timetext").innerHTML = "Why are you still here?";
     }
 }, 1000)
